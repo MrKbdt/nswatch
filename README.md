@@ -9,9 +9,10 @@ When run at the command line it will continually loop executing the following fu
   
 
 nswatch.exe will take up to TWO arguments as follows: 
-         nswatch <hostname | FQDN> <sleep seconds>
-              <sleep seconds> is optional. The default is 2 seconds.
-              **NOTE - if experiencing slow resolve time for an FQDN you have two options.
+         nswatch <hostname | FQDN> <sleep seconds> 
+  
+  <sleep seconds> is optional. The default is 2 seconds.
+             **NOTE - if experiencing slow resolve time for an FQDN you have two options.
                 1) use a trailing '.' to speed up the resolver.
                 AND/OR
                 2) increase the sleepTime by a few seconds.
