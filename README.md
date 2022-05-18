@@ -16,6 +16,6 @@ nswatch.exe will take up to TWO arguments as follows:
                 AND/OR
                 2) increase the sleepTime by a few seconds.
                 
-                e.g. nswatch www.google.com. 5
+                nswatch www.google.com. 5
                 
-                The above command will resolve quickly and sleep for 5 seconds before continuing next loop iteration.
+                
